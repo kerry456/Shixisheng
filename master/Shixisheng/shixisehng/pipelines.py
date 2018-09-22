@@ -26,7 +26,7 @@ class MongoDBPipline(object):
     def open_spider(self,spider):
         try:
             if identified == 'master':
-                self.client = MongoClient(host=self.setting['MONGO_HOST'],port=27017)
+                self.client = MongoClient(host=self.settings['MONGO_HOST'],port=27017)
                 self.shixisheng = self.client['test']['shixisheng']
                 # print('ssssss')
             else:
