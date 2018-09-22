@@ -42,7 +42,9 @@ SCHEDULER_DUPEFILTER_KEY= "%(spider)s:dupefilter"
 
 # REDIS_URL = 'redis://:123456@192.168.0.47:6379'
 
-REDIS_HOST = '182.92.225.115'
+#运行时添加自己的主机
+
+REDIS_HOST = ''
 
 REDIS_PORT = 6379
 
