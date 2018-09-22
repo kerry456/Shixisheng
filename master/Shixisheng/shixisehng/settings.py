@@ -44,6 +44,8 @@ SCHEDULER_DUPEFILTER_KEY= "%(spider)s:dupefilter"
 
 #运行时添加自己的主机
 
+MONGO_HOST = ''
+
 REDIS_HOST = ''
 
 REDIS_PORT = 6379
