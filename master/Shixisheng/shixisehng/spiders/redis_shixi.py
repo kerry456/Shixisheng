@@ -18,7 +18,7 @@ from lxml import etree
 class RedisShixiSpider(RedisSpider):
     name='master'
     allowed_domains=['shixiseng.com']
-    r = Redis(host='182.92.225.115',port=6379,password='123456')
+    r = Redis(host='',port=6379,password='123456')
     # r =  Redis()
     def start_requests(self):
         base_url = 'https://www.shixiseng.com/interns?k={}&p={}'
