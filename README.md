@@ -10,5 +10,8 @@ python3 run.py
 
 运行 python3 run.py
 
+也可以设置无人值守 
+
+建立crontab 计划任务  执行start.sh 脚本。。。
 
 
