@@ -108,7 +108,24 @@ ITEM_PIPELINES = {
 
 #异步请求个数
 
-CONCURRENT_REQUESTS =  1
+CONCURRENT_REQUESTS =  3
+
+MYEXT_ENABLED = True     # 开启扩展
+
+IDLE_NUMBER = 5         #配置允许的空闲时长，每5秒会增加一次IDLE_NUMBER，直到增加到360，程序才会close
+
+
+EXTENSIONS = {
+
+   'shixisehng.extensions.RedisSpiderSmartIdleClosedExensions': 500,
+}
+
+#开启日志
+# LOG_ENABLED = True
+# LOG_STDOUT = True
+# LOG_LEVEL = 'DEBUG'
+# LOG_FILE = 'myspider.log'
+
 
 
 # Enable and configure the AutoThrottle extension (disabled by default)
