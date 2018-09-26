@@ -1,4 +1,5 @@
 # Shixisheng
+环境：Python3.6
 分布式 scrapy_redis去重 + MongoDB 持久化数据 + Bloom 布隆去重
 
 先运行 cd master 主负责丢链接到队列
